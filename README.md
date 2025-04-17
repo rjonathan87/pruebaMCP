@@ -28,14 +28,21 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el 
 
 ## Estructura del proyecto
 
-- `/pages` - Contiene las páginas de la aplicación
-- `/components` - Componentes reutilizables
-- `/styles` - Estilos globales y configuración de Tailwind CSS
+- `/src/pages` - Contiene las páginas de la aplicación
+- `/src/ui/layouts` - Layouts de la aplicación, incluyendo MainLayout
+- `/src/components` - Componentes reutilizables
+- `/src/styles` - Estilos globales y configuración de Tailwind CSS
 - `/public` - Archivos estáticos como imágenes y fuentes
+
+## Características principales
+
+- Estructura organizada con layouts centralizados
+- Páginas que utilizan el MainLayout como base
+- Estilos con Tailwind CSS
 
 ## Tecnologías utilizadas
 
 - Next.js
 - React
 - Tailwind CSS
-- ESLint para linting# pruebaMCP
+- ESLint para linting
